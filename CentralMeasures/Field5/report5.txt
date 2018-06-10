@@ -1,0 +1,12 @@
+Assignment-5 :- Weather data during 1901-2002
+
+TOOL USED :- R programming language.
+
+METHODOLOGY :- 
+	Weather data can be stored as a list of lists where each element of a list is weather data of a city thus forming a data cube. 
+	Data cube has two main operations :-
+	a) Dice
+	b) Slice
+	
+	Dice :- In this operation multiple selected values of a dimension are selected to obtain a subcube.(eg:- Weather data of Northeast cities)
+	Slice :- In this operation only one value of a dimension is selected to obtain a slice of the cube.(eg:- Weather data of Kolkata) 
