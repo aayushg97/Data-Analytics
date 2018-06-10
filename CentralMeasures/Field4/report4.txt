@@ -1,0 +1,14 @@
+Assignment-4 :- Irish data with 50 observations
+
+TOOL USED :- R programming language.
+
+MEHODOLOGY :- 
+	a) Take sum of all data values, divide this sum by 150 and store it as population mean.
+	b) Take the sum of squares of difference of each data-value and mean, divide this sum by 150 and store it as 
+	   population variance.
+	b) Select 50 random numbers in the range [1-150] and select the rows with one of these random numbers as index thus 
+	   forming a random sample of size 50.
+	c) Calculate sample mean and variance in the same way as population mean and variance were calculated.
+	
+RESULTS :-
+	Sample parameters (mean and variance) are approximately equal to population parameters (mean and variance).
