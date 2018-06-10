@@ -1,0 +1,47 @@
+Assignment-3 :- Automobile data with 205 observations.
+
+TOOL USED :- R programming language.
+
+METHODOLOGY :- 
+	Attributes can be categorized into four main categories :- 
+	a) Nominal :- These are the attributes which can be divided into two or more groups such that there is no ordering 
+				  among the groups. 
+	b) Ordinal :- These are the attributes which can be divided into two or more groups such that there is some ordering 
+				  among the groups.
+	c) Interval :- These are the attributes that support addition and subtraction operations and have some ordering 
+				   property.
+	d) Ratio :- These are the attributes that support addition, subtraction, multiplication and division operations and 
+				have some ordering property.
+				
+RESULTS :-
+	The attribute "city-mpg" is likely to follow NORMAL distribution and the attribute "peak-rpm" is likely to follow 
+	BIMODAL distribution.
+	
+NOIR CATEGORIZATION :-
+	# symboling - ORDINAL
+	# normalized-losses - INTERVAL
+	# make - NOMINAL
+	# fuel-type - NOMINAL
+	# aspiration - ORDINAL
+	# num-of-doors - NOMINAL
+	# body-style - NOMINAL
+	# drive-wheels - NOMINAL
+	# engine-location - NOMINAL 
+	# wheel-base - INTERVAL
+	# length - INTERVAL
+	# width - INTERVAL
+	# height - INTERVAL
+	# curb-weight - INTERVAL
+	# engine-type - NOMINAL
+	# num-of-cylinders - NOMINAL
+	# engine-size - INTERVAL
+	# fuel-system - NOMINAL
+	# bore - INTERVAL
+	# stroke - INTERVAL
+	# compression-ratio - RATIO
+	# horsepower - INTERVAL
+	# peak-rpm - INTERVAL
+	# city-mpg - INTERVAL
+	# highway-mpg - INTERVAL 
+	# price - INTERVAL
+
