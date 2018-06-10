@@ -1,0 +1,32 @@
+Assignment-1 :- Car data with 50 observations.
+
+TOOL USED :- R programming language.
+
+ASSUMPTIONS :- 
+	a) Each row in the data represents the distance covered by the car at the given speed.
+	b) In every row we can calculate the time for which the car travelled at the given speed.
+	c) After calculating the time duration for each row, we can calculate average speed of the car by dividing sum of all 
+	   distances by sum of all time durations.
+
+METHODOLOGY :- 
+	a) Arithmetic mean of n numbers is :-
+					AM = (a1 + a2 ....... + an)/n
+				
+	b) Geometric mean of n numbers is :-
+					GM = (a1*a2.......*an)^(1/n)
+				
+	c) Harmonic mean of n numbers is :- 
+					HM = n/((1/a1) + (1/a2) ........ + (1/an))
+				
+RESULTS :-
+	It was found that arithmetic mean of speeds was closest in value to the average speed. On basis of closeness with 
+	average speed following order was observed :-
+					AM(closest) > GM > HM
+				
+	Arithmetic mean calculation has real significance to the data in this case because the data is varying i.e. data has 
+	varying distances and varying speeds. In such scenarios Geometric mean or Harmonic mean may give a very loose 
+	approximation of average speed whereas Arithmetic mean gives a value very close to average speed. 
+
+OTHER MEASUREMENTS :- 
+	Summing up all the distances and diving this sum by sum of all time durations gives accurate measure of average speed 
+	of the car.
