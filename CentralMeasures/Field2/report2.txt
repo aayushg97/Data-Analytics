@@ -1,0 +1,32 @@
+Assignment-2 :- Earthquake data with 8083 observations
+
+TOOL USED :- R programming language
+
+METHODOLOGY :- 
+	"Five point summary" of a data is a collection of five points namely :-
+	a) Minimum
+	b) 1st Quartile (25%)
+	c) Median		(50%)
+	d) 3rd Quartile (75%)
+	e) Maximum
+	
+	Computing "Five point summary"
+	-> 1st Quartile is determined by computing the median of data between minimum value and median of whole data.
+	-> 3rd Quartile is determined by computing the median of data between median of whole data and maximum value.
+	-> Median is the middle value in sorted data.
+	-> First value of sorted data is the minimum value of data.
+	-> Last value of sorted data is the maximum value of data.
+	
+	To remove outliers from the dataset IQR(Inter-Quartile range) method was used which is as follows :-
+	a) Let first quartile of dataset be Q1, third quartile of dataset be Q3 and median of dataset be Q2.
+	b) Calculate IQR (inter-quartile range).  IQR <- Q3 - Q1.
+	c) Define L as the lower limit and U as upper limit to determine the outliers.
+	d) L <- Q1 - (1.5*IQR)  and  U <- Q3 + (1.5*IQR).
+	e) Remove all the data points that lie outside the [L,U] interval.
+	f) Resulting dataset is free of any outliers.
+	
+RESULTS :- 
+	Boxplot obtained from original data shows many outliers as circles. These outliers severely affect the analysis of 
+	data. Also the in the boxplot of original data, boxes are scattered resulting in high variance whereas in the boxplot 
+	of outlier-free data, boxes are more or less similar to each other thereby lowering the variance by a considerable 
+	amount. Analysis using the boxplot of outlier-free data will provide accurate results and information.  	
